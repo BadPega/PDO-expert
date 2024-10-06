@@ -1,38 +1,9 @@
-
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producten Overzicht</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .action-buttons a {
-            padding: 5px 10px;
-            margin: 0 5px;
-            text-decoration: none;
-            color: white;
-            background-color: #4CAF50;
-            border-radius: 5px;
-        }
-        .delete-button {
-            background-color: #f44336;
-        }
-    </style>
 </head>
 <body>
 

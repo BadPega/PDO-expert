@@ -1,9 +1,9 @@
 <?php
 
 
-// Controleer of het formulier correct is verstuurd
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Sanitize inputs
+
     $code = filter_input(INPUT_POST, 'code', );
     $omschrijving = filter_input(INPUT_POST, 'omschrijving', );
     $prijsPerStuk = filter_input(INPUT_POST, 'prijsPerStuk', FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
